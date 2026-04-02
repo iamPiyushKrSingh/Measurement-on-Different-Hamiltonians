@@ -38,7 +38,7 @@ def main():
         H, psi, Δt, n, generations
     )
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(6, 4))
 
     X = np.arange(0, (generations * (n + 1) + 1) / 100, 0.01)
     Y = np.arange(0, L, 1)
